@@ -1,5 +1,5 @@
 %define upstream_name    Config-MVP
-%define upstream_version 0.092040
+%define upstream_version 0.092060
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -44,5 +44,4 @@ rm -rf %buildroot
 %doc LICENSE README
 %{_mandir}/man3/*
 %perl_vendorlib/*
-
 
