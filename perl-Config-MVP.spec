@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 6
 
 Summary:    Multivalue-property config-loading state machine
 License:    GPL+ or Artistic
