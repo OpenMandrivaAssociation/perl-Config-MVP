@@ -1,9 +1,9 @@
 %define upstream_name    Config-MVP
-%define upstream_version 0.092211
+%define upstream_version 0.092360
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 6
+Release:    %mkrel 1
 
 Summary:    Multivalue-property config-loading state machine
 License:    GPL+ or Artistic
