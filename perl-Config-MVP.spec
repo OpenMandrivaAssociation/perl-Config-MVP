@@ -1,5 +1,5 @@
 %define upstream_name    Config-MVP
-%define upstream_version 0.093350
+%define upstream_version 0.100780
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
