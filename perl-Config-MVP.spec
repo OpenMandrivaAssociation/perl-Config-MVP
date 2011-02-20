@@ -1,9 +1,9 @@
 %define upstream_name    Config-MVP
-%define upstream_version 2.101650
+%define upstream_version 2.200001
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Multivalue-property config-loading state machine
 License:    GPL+ or Artistic
@@ -13,6 +13,9 @@ Source0:    http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upst
 
 BuildRequires: perl(Moose)
 BuildRequires: perl(Tie::IxHash)
+BuildRequires: perl(MooseX::OneArgNew)
+BuildRequires: perl(Role::HasMessage)
+BuildRequires: perl(Role::Identifiable::HasIdent)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
