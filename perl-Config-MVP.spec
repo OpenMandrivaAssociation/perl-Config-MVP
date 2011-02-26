@@ -10,12 +10,16 @@ License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upstream_version}.tar.gz
-
+BuildRequires: perl(Class::Load)
 BuildRequires: perl(Moose)
-BuildRequires: perl(Tie::IxHash)
 BuildRequires: perl(MooseX::OneArgNew)
 BuildRequires: perl(Role::HasMessage)
 BuildRequires: perl(Role::Identifiable::HasIdent)
+BuildRequires: perl(StackTrace::Auto)
+BuildRequires: perl(Tie::IxHash)
+BuildRequires: perl(Test::Fatal)
+BuildRequires: perl(Test::More) >= 0.960
+BuildRequires: perl(Throwable)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
