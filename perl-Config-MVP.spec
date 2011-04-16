@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    Multivalue-property config-loading state machine
 License:    GPL+ or Artistic
@@ -20,6 +20,11 @@ BuildRequires: perl(Tie::IxHash)
 BuildRequires: perl(Test::Fatal)
 BuildRequires: perl(Test::More) >= 0.960
 BuildRequires: perl(Throwable)
+Requires: perl(Throwable)
+Requires: perl(Role::Identifiable::HasIdent)
+Requires: perl(Role::HasMessage)
+Requires: perl(StackTrace::Auto)
+Requires: perl(MooseX::OneArgNew)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
