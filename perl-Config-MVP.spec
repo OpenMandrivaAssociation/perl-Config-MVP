@@ -1,5 +1,5 @@
 %define upstream_name    Config-MVP
-%define upstream_version 2.200003
+%define upstream_version 2.200006
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -9,7 +9,7 @@ Summary:	Multivalue-property config-loading state machine
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Config/Config-MVP-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(namespace::autoclean)
@@ -116,3 +116,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Fri Jul 24 2009 cpan2dist 0.092040-1mdv
 - initial mdv release, generated with cpan2dist
+
