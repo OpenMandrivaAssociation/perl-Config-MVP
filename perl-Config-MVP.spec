@@ -23,6 +23,7 @@ BuildRequires:	perl(Tie::IxHash)
 BuildRequires:	perl(Test::Fatal)
 BuildRequires:	perl(Test::More) >= 0.960
 BuildRequires:	perl(Throwable)
+BuildRequires: perl(Capture::Tiny)
 
 Requires:	perl(Throwable)
 Requires:	perl(Role::Identifiable::HasIdent)
