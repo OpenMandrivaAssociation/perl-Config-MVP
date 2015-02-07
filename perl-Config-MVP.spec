@@ -33,6 +33,8 @@ BuildRequires: perl(Try::Tiny)
 BuildRequires: perl(overload)
 BuildRequires: perl(strict)
 BuildRequires: perl(warnings)
+BuildRequires: perl(namespace::autoclean)
+
 
 Requires:	perl(Throwable)
 Requires:	perl(Role::Identifiable::HasIdent)
