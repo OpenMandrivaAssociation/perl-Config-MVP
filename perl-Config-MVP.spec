@@ -30,7 +30,6 @@ BuildRequires: perl(Test::More) >= 0.960.0
 BuildRequires: perl(Throwable)
 BuildRequires: perl(Tie::IxHash)
 BuildRequires: perl(Try::Tiny)
-BuildRequires: perl(lib)
 BuildRequires: perl(overload)
 BuildRequires: perl(strict)
 BuildRequires: perl(warnings)
