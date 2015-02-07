@@ -11,20 +11,29 @@ Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Config/Config-MVP-%{upstream_version}.tar.gz
 
-BuildRequires:	perl-devel
-BuildRequires:	perl(namespace::autoclean)
-BuildRequires:	perl(Class::Load)
-BuildRequires:	perl(Moose)
-BuildRequires:	perl(MooseX::OneArgNew)
-BuildRequires:	perl(Role::HasMessage)
-BuildRequires:	perl(Role::Identifiable::HasIdent)
-BuildRequires:	perl(StackTrace::Auto)
-BuildRequires:	perl(Tie::IxHash)
-BuildRequires:	perl(Test::Fatal)
-BuildRequires:	perl(Test::More) >= 0.960
-BuildRequires:	perl(Throwable)
-BuildRequires:	perl(Capture::Tiny)
-BuildRequires:	perl(Module::Pluggable::Object)
+BuildRequires: perl-devel
+BuildRequires: perl(Class::Load) >= 0.170.0
+BuildRequires: perl(ExtUtils::MakeMaker) >= 6.300.0
+BuildRequires: perl(File::Spec)
+BuildRequires: perl(Module::Pluggable::Object)
+BuildRequires: perl(Module::Runtime)
+BuildRequires: perl(Moose) >= 0.910.0
+BuildRequires: perl(Moose::Role)
+BuildRequires: perl(Moose::Util::TypeConstraints)
+BuildRequires: perl(MooseX::OneArgNew)
+BuildRequires: perl(Params::Util)
+BuildRequires: perl(Role::HasMessage)
+BuildRequires: perl(Role::Identifiable::HasIdent)
+BuildRequires: perl(StackTrace::Auto)
+BuildRequires: perl(Test::Fatal)
+BuildRequires: perl(Test::More) >= 0.960.0
+BuildRequires: perl(Throwable)
+BuildRequires: perl(Tie::IxHash)
+BuildRequires: perl(Try::Tiny)
+BuildRequires: perl(lib)
+BuildRequires: perl(overload)
+BuildRequires: perl(strict)
+BuildRequires: perl(warnings)
 
 Requires:	perl(Throwable)
 Requires:	perl(Role::Identifiable::HasIdent)
