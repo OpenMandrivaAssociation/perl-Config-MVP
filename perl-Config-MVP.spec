@@ -40,7 +40,6 @@ relates to a Perl namespace and contains a set of named parameters.
 
 %prep
 %setup -qn %{upstream_name}-%{upstream_version}
-rm -fr t/basic.t
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
