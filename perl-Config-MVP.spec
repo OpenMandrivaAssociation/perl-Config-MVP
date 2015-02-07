@@ -24,6 +24,7 @@ BuildRequires:	perl(Test::Fatal)
 BuildRequires:	perl(Test::More) >= 0.960
 BuildRequires:	perl(Throwable)
 BuildRequires:	perl(Capture::Tiny)
+BuildRequires:	perl(Module::Pluggable::Object)
 
 Requires:	perl(Throwable)
 Requires:	perl(Role::Identifiable::HasIdent)
