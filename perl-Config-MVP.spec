@@ -1,15 +1,13 @@
 %define upstream_name    Config-MVP
-%define upstream_version 2.200013
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	2.200013
+Release:	2
 
 Summary:	Multivalue-property config-loading state machine
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/rjbs/Config-MVP
-Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Config-MVP-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Config-MVP-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires: perl-devel
@@ -50,7 +48,7 @@ libraries. It expects to generate a list of named sections, each of which
 relates to a Perl namespace and contains a set of named parameters.
 
 %prep
-%setup -qn %{upstream_name}-%{upstream_version}
+%setup -qn %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
